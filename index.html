@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+    <title>Nick Reitmeyer</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <nav>
+      <h1>NICK REITMEYER</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+      <img
+        src="./assests/images/unnamed.jpg"
+        loading="lazy"
+        class="hero-img"
+      />
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>My name is Nick Reitmeyer. I am 24 and currently enrolled in the Miami bootcamp and well as working for horizon media and a programmatic buyer.</p>
+    </section>
+
+    <!-- Projects section -->
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title" >Some of my Projects </h2>
+      <div class="projects-container">
+
+        <div class="project-container project-card">
+          <img
+            src="./assests/images/RunBuddyLogo.png"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title"> Run Buddy </h3>
+          <a href="https://github.com/Nick9850/run-buddy">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="./assests/images/NCC_Opossums3_1920.webp"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title"> Opossums </h3>
+          <a href="https://en.wikipedia.org/wiki/Opossum">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="./assests/images/bigfoot-film-patterson-gimlin.webp"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title"> Bigfoot </h3>
+          <a href="https://en.wikipedia.org/wiki/Bigfoot">Check it Out</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2> Contact </h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form>
+            <div>
+              <label for="name"> Name </label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+              />
+            </div>
+            <div class="form-control">
+              <label for="email"> Email </label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+              />
+            </div>
+            <div class="form-control">
+              <label for="message"> Message </label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    
+    <footer>
+      <p> Bulit by Nick Reitmeyer</p>
+    </footer>
+  </body>
+</html>
